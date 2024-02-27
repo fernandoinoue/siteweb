@@ -1,0 +1,121 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: #141024;
+    font-size: large;
+    /* color: white; */
+}
+.navbar, .center-navbar {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    width: 90%;
+    margin: 15px auto;
+    background: transparent !important;
+    border-radius: 30px;
+}
+.navbar .logo, a, ul {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    border: 2pt  solid rgb(31, 57, 87);
+    /* margin-top: 25px; */
+    /* margin-left:25px; */
+    border-top: 2px;
+    border-right: 0px;
+    border-left: 0px;
+
+    
+}
+.center-navbar, li {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    /* background: transparent; */
+    border-radius: 30px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 6%;
+    z-index: 1;
+    /* background-color: #141024; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5 ); 
+    transition: all 0.5s ease;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    /* background-color: #141024; */
+    /* color: white; */
+    border: 1px solid white;
+}
+.imgcover {
+    background-image: url(/SiteWeb/img/_254ab859-6d6e-4590-9178-c9c0d310f50e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 75vh;
+    width: 90%;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5 );
+    margin-top: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content a:hover {
+    color: black;
+    transition-duration: 1000ms;
+}
+.content li:hover {
+    background: white;
+    transition-duration: 500ms;
+}
+.content, .logo a:hover{
+    background: white;
+    transition-duration: 1000ms;
+}
